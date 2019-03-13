@@ -1,5 +1,7 @@
 class CalcsController < ApplicationController
   def show
-    @msg = params[:msg]
+    @value = params[:value].to_i
+    @ope = params[:ope]
+    @value = params[:value2].to_i
   end
 end
