@@ -1,7 +1,9 @@
 class CalcsController < ApplicationController
   def show
-    @value = params[:value].to_i
+    @value1 = params[:value1].to_i
     @ope = params[:ope]
-    @value = params[:value2].to_i
+    @value2 = params[:value2].to_i
+
+    
   end
 end
